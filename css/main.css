@@ -1,0 +1,345 @@
+*{
+    font-family: 'Jost', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0 auto;
+    width: 1160px;
+}
+h1,h2,h3{
+    font-weight: 600;
+}
+p{
+    font-weight: 400;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.main{
+    background: #141024;
+    padding: 30px 100px 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+.nav__link{
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-right: 40px;
+}
+.header__tel{
+    font-weight: 600;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+.main__wraper{
+    display: flex;
+    
+}
+.main__title{
+    font-size: 70px;
+    line-height: 160%;
+    color: #FFFFFF;
+    width: 516px;
+    margin-top: 274px;
+    margin-right: 28px;
+}
+.main__descript{
+    font-size: 20px;
+    line-height: 160%;
+    color: #FFFFFF;
+    width: 478px;
+    margin-bottom: 50px;
+}
+.btn{
+    background: #D52027;
+    border-radius: 5px;
+    padding: 25px 54px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+}
+.main__bg-img{
+    margin-top: 92px;
+}
+.about{
+    padding: 120px 0;
+}
+.about__title{
+    font-size: 30px;
+    line-height: 160%;
+    color: #141024;
+    width: 891px;
+    margin-bottom: 60px;
+}
+.about__title span{
+    font-weight: 600; 
+}
+.about__info{
+    display: flex;
+    align-items: center;
+}
+.item-num{
+    font-size: 70px;
+    line-height: 160%;
+    color: #D52027;
+}
+.item-descript{
+    width: 260px;
+    font-size: 18px;
+    line-height: 160%;
+    color: rgba(20, 16, 36, 0.7);
+    margin-right: 40px;
+}
+.after{
+    background: #F9F9F9;
+    padding: 100px 0;
+}
+.after__title{
+    font-size: 50px;
+    line-height: 160%;
+    color: #141024;
+}
+.after__wraper{
+    display: flex;
+    margin-top: 60px;
+}
+.after__info-item{
+    margin-right: 40px;
+}
+.after__info-title{
+    font-size: 24px;
+    line-height: 160%;
+    color: #141024;
+    margin-bottom: 20px;
+    
+}
+.relative{
+    position: relative;
+}
+
+.after__info-descript{
+    width: 360px;
+    font-size: 18px;
+    line-height: 160%;
+    color: rgba(20, 16, 36, 0.7);
+}
+.hover-info{
+    position: absolute;
+    top: -4px;
+    left: 110px;
+}
+.after__info-item:last-child{
+    margin-right: 0;
+}
+.hover__descript{
+    padding: 15px 20px;
+    position: absolute;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(20, 16, 36, 0.1);
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 160%;
+    color: #141024;
+    top: -65px;
+    left: 109px;
+    display: none;
+}
+.relative:hover .hover__descript{
+    display: block;   
+}
+.teacher{
+    padding: 120px 0;
+}
+.teacher__title{
+    font-size: 50px;
+    line-height: 160%;
+    color: #141024;
+}
+.teacher__wraper{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 77px;
+    overflow: hidden;
+}
+.teacher__item{
+    margin-right: 40px;
+}
+.teacher__item-name{
+    font-size: 24px;
+    line-height: 160%;
+    color: #141024;
+    margin-top: 20px;
+}
+.teacher__item-jobTitle{
+    font-size: 18px;
+    line-height: 160%;
+    color: rgba(20, 16, 36, 0.7);
+    margin: 10px 0 20px;
+}
+.teacher__item-link{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #D52027;
+}
+.teacher__slider{
+    width: 1147px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.slider-line{
+    width: 360px;
+    height: 5px;
+    background: rgba(20, 16, 36, 0.08);
+    border-radius: 40px;
+}
+.slider-line span{
+    display: block;
+    height: 5px;
+    background: #141024;
+    border-radius: 40px;
+}
+.teacher__button{
+    width: 83px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.courses__title{
+    font-size: 50px;
+    line-height: 160%;
+    color: #141024;
+    margin-bottom: 60px;
+}
+.courses__wraper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.courser__cart{
+    width: 360px;
+    height: 460px;
+    border: 1px solid rgba(20, 16, 36, 0.2);
+    border-radius: 20px;
+}
+.courses__cart-title{
+    font-size: 30px;
+    line-height: 160%;
+    text-align: center;
+    color: #141024;
+    margin: 40px 0 63px;
+}
+.courses__cart-prise{
+    font-size: 50px;
+    line-height: 160%;
+    text-align: center;
+    color: #141024;
+}
+.courses__cart-descript{
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    color: #141024;
+    margin: 20px 0 61px;
+}
+.btn-cart{
+    margin: 0 auto;
+    display: block;
+}
+.main__cart{
+    width: 360px;
+    height: 500px;
+    background: #141024;
+}
+.main__cart-title{
+    color: #FFFFFF;
+}
+.main__cart-prise{
+    color: #FFFFFF;
+    margin-top: 19px;
+}
+.main__cart-descript{
+    color: #FFFFFF;
+}
+.stock{
+    margin-top: 120px;
+    background: url(../img/stock-bg.png) center/cover no-repeat;
+    padding: 87px 0;
+}
+.stock__wraper{
+    display: flex;
+}
+.stock__title{
+    width: 389px;
+    font-size: 36px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin: 27px 184px 20px 40px;
+}
+.stock__desckript{
+    font-size: 20px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin-left: 40px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    padding: 19px 181px 19px 20px;
+    background: #F6F6F6;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+}
+input::placeholder{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: rgba(40, 41, 68, 0.7);
+}
+.form__btn{
+    background: #141024;
+    border-radius: 5px;
+    padding: 19px 182px 19px 183px;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+footer{
+    padding: 40px 100px;
+    background: #141024;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__copyrite{
+    font-size: 16px;
+    line-height: 160%;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 5px;
+}
